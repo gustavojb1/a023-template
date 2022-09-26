@@ -42,6 +42,9 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+section p{
+    padding-bottom: 20px;
+}
 
 footer {
   background-color: antiquewhite;
@@ -67,6 +70,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  padding-top: 30px;
 }
 #card-item {
   width: 250px;
