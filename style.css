@@ -1,4 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#conteudo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-header {
+  padding: 0 5rem;
+}
+
+header {
+  height: 20vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+}
+button {
+  padding: 5px;
+  background-color: rgb(99, 99, 231);
+  border-radius: 5px;
+}
+main {
+  background-color: aqua;
+  /* OPÇÃO PARA O MAIN CONTER TODA A ALTURA POSSÍVEL PARA ELE */
+  flex-grow: 1;
+  padding: 2rem 5rem;
+  /* OPÇÃO PARA FAZER O MAIN ROLAR NA BARRA DE ROLAGEM */
+  overflow-y: scroll;
+  /* OPÇÃO PARA CENTRALIZAR O CONTEUDO DO MAIN */
+  max-height: 80vh;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 8vh;
+  padding: 0 5rem;
+}
+
+.dois {
+  padding: 0 2rem;
+  flex: 3;
+  /*  flex grow: 3
+    flex shrink: 1
+    flex basis automatico
+*/
+  border: 1px solid black;
+}
+.um {
+  padding: 0 2rem;
+  flex: 1;
+  border: 1px solid black;
+}
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#card-item {
+  width: 250px;
+  height: 320px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(221, 220, 220);
+  margin-bottom: 18px;
+}
+#card-item p {
+  width: 100%;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+img {
+  width: 100%;
 }
