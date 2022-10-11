@@ -15,7 +15,7 @@
 }
 
 header {
-  height: 20vh;
+  height: 18vh;
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
@@ -37,34 +37,37 @@ main {
   /* OPÇÃO PARA CENTRALIZAR O CONTEUDO DO MAIN */
   max-height: 80vh;
 }
-section {
+main section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 section p{
-    padding-bottom: 20px;
+    padding-bottom: 20px;   
 }
 
 footer {
   background-color: antiquewhite;
   height: 8vh;
-  padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dois {
   padding: 0 2rem;
   flex: 3;
+
   /*  flex grow: 3
     flex shrink: 1
     flex basis automatico
 */
-  border: 1px solid black;
+  
 }
 .um {
   padding: 0 2rem;
   flex: 1;
-  border: 1px solid black;
+
 }
 #card-container {
   display: flex;
